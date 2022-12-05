@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        PATH = "/opt/homebrew/Cellar/python@3.10/3.10.2/bin:$PATH"
+    }
     stages {
         stage('Test Locust') {
                             steps {
