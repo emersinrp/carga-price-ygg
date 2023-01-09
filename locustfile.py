@@ -9,7 +9,7 @@ load_dotenv()
 
 
 class CargaApiPrice(HttpUser):
-    host = os.environ["GRAPHIQL_EXTERNAL_IP_PRD"]
+    host = os.environ["GRAPHIQL_URL_UAT"]
     wait_time = between(1.0, 3.0)
     prefix_price = os.environ["PREFIX_PRICE"]
 
