@@ -1,4 +1,6 @@
 .idea
 helpers/__pycache__/
 __pycache__/
-venv
+venv_price
+error_requests.log
+success_requests.log
