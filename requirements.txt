@@ -36,3 +36,6 @@ Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1660053523
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1659400682470/work
 zope.event @ file:///home/conda/feedstock_root/build_artifacts/zope.event_1600479883063/work
 zope.interface @ file:///Users/runner/miniforge3/conda-bld/zope.interface_1649175752968/work
+
+locust~=2.16.1
+python-dotenv~=1.0.1
